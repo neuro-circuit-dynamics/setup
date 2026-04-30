@@ -75,7 +75,7 @@ python3.12 -m pip install --upgrade pip
 ## Step 7 — Install the required packages
 
 ```bash
-python3.12 -m pip install -r https://raw.githubusercontent.com/neuro-circuit-dynamics/lab-setup/main/requirements.txt
+python3.12 -m pip install -r https://raw.githubusercontent.com/neuro-circuit-dynamics/setup/main/requirements.txt
 ```
 
 ---
