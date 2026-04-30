@@ -82,7 +82,7 @@ python -m pip install --upgrade pip
 ## Step 7 — Install the required packages
 
 ```powershell
-python -m pip install -r https://raw.githubusercontent.com/neuro-circuit-dynamics/lab-setup/main/requirements.txt
+python -m pip install -r https://raw.githubusercontent.com/neuro-circuit-dynamics/setup/main/requirements.txt
 ```
 
 ---
