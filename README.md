@@ -62,7 +62,17 @@ This confirms you are working inside the environment.
 
 ---
 
-## Step 6 — Install the required packages
+## Step 6 — Update pip
+
+Before installing packages, update pip to the latest version:
+
+```bash
+python3.12 -m pip install --upgrade pip
+```
+
+---
+
+## Step 7 — Install the required packages
 
 ```bash
 python3.12 -m pip install -r https://raw.githubusercontent.com/neuro-circuit-dynamics/lab-setup/main/requirements.txt
@@ -70,7 +80,7 @@ python3.12 -m pip install -r https://raw.githubusercontent.com/neuro-circuit-dyn
 
 ---
 
-## Step 7 — Verify the installation
+## Step 8 — Verify the installation
 
 ```bash
 python3.12 -m pip list
@@ -78,7 +88,7 @@ python3.12 -m pip list
 
 ---
 
-## Step 8 — Deactivate the environment
+## Step 9 — Deactivate the environment
 
 When you finish your session:
 
