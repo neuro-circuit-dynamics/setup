@@ -69,7 +69,17 @@ This confirms you are working inside the environment.
 
 ---
 
-## Step 6 — Install the required packages
+## Step 6 — Update pip
+
+Before installing packages, update pip to the latest version:
+
+```powershell
+python -m pip install --upgrade pip
+```
+
+---
+
+## Step 7 — Install the required packages
 
 ```powershell
 python -m pip install -r https://raw.githubusercontent.com/neuro-circuit-dynamics/lab-setup/main/requirements.txt
@@ -77,7 +87,7 @@ python -m pip install -r https://raw.githubusercontent.com/neuro-circuit-dynamic
 
 ---
 
-## Step 7 — Verify the installation
+## Step 8 — Verify the installation
 
 ```powershell
 python -m pip list
@@ -85,7 +95,7 @@ python -m pip list
 
 ---
 
-## Step 8 — Deactivate the environment
+## Step 9 — Deactivate the environment
 
 When you finish your session:
 
